@@ -47,7 +47,7 @@ resource "confluent_kafka_cluster" "standard" {
   display_name = "standard_kafka_cluster"
   availability = "SINGLE_ZONE"
   cloud        = "AWS"
-  region       = "us-east-2"
+  region       = "us-west-2"
   standard {}
 
   environment {
